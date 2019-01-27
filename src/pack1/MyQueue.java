@@ -3,6 +3,7 @@ package pack1;
 import javax.management.QueryEval;
 import java.util.ArrayList;
 
+//this is a queue implementation
 public class MyQueue {
 
     private ArrayList<String> queue = new ArrayList<>(10);
