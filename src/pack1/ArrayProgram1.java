@@ -63,7 +63,7 @@ public class ArrayProgram1 {
         this.arr = arr;
     }
 
-    private void printArray(){
+    public void printArray(){
         for(int i = 0; i< this.getArr().length ; i++){
             System.out.println(i + " > "+ arr[i]);
         }

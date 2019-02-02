@@ -14,7 +14,6 @@ public class Sorting {
 
         ArrayList<Integer> arr = getArrayWithRandomNumbers(10);
         System.out.println("--- Random number arrays ---");
-        //System.out.println(arr);
 
         ArrayList<Integer> arr1 = new ArrayList<Integer>(10);
 
@@ -57,7 +56,7 @@ public class Sorting {
 
         Random random = new Random();
         ArrayList<Integer> lst = new ArrayList<Integer>(sizeOfArray);
-        for(int i = 0; i < 30000000; i++){
+        for(int i = 0; i < 5; i++){
             lst.add(random.nextInt(sizeOfArray));
 
         }
