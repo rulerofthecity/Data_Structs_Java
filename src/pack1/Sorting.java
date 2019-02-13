@@ -36,17 +36,18 @@ public class Sorting {
         System.out.println(arr1);
 
         //sorting
-        for(int i = 0; i < arr1.size(); i++){
-            for(int j = i+1; j < arr1.size(); j++){
-
-                if(arr1.get(i) > arr1.get(j) ){
-                    Integer val1 = arr1.get(i);
-                    arr1.set(i, arr1.get(j));
-                    arr1.set(j,val1);
-                }
-
-            }
-        }
+        sort(arr1);
+//        for(int i = 0; i < arr1.size(); i++){
+//            for(int j = i+1; j < arr1.size(); j++){
+//
+//                if(arr1.get(i) > arr1.get(j) ){
+//                    Integer val1 = arr1.get(i);
+//                    arr1.set(i, arr1.get(j));
+//                    arr1.set(j,val1);
+//                }
+//
+//            }
+//        }
         System.out.println("--- Sorted Appearance Array ---");
         System.out.println(arr1);
 
@@ -61,6 +62,22 @@ public class Sorting {
 
         }
         return lst;
+
+    }
+
+    public void sort(ArrayList<Integer> arr){
+
+        //sorting
+        for(int i = 0; i < arr.size(); i++){
+            for(int j = i+1; j < arr.size(); j++){
+
+                if(arr.get(i) > arr.get(j) ){
+                    Integer val1 = arr.get(i);
+                    arr.set(i, arr.get(j));
+                    arr.set(j,val1);
+                }
+            }
+        }
 
     }
 }
