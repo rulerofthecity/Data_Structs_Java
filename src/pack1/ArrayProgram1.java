@@ -22,8 +22,7 @@ Final array: 3 13 13 6 7 6
 
 package pack1;
 
-import java.lang.reflect.Array;
-
+// comment
 public class ArrayProgram1 {
 
     public static void main(String[] args) {
